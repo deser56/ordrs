@@ -2,8 +2,8 @@ const express = require('express');
 const app = express();
 const { MongoClient, ObjectId } = require('mongodb');
 
-const connectionString = 'mongodb+srv://your-connection-string';
-const dbName = 'your-database-name';
+const connectionString = 'mongodb+srv://wanpatty168:jY5V2izE8lZokhdB@cluster0.klmdnv3.mongodb.net/?retryWrites=true&w=majority';
+const dbName = 'cluster0';
 const collectionName = 'orders';
 
 let db;
